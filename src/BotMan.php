@@ -100,7 +100,7 @@ class BotMan
     protected $conversationManager;
 
     /** @var CacheInterface */
-    private $cache;
+    protected $cache;
 
     /** @var ContainerInterface */
     protected $container;
